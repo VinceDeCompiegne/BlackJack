@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="asset/css/index.css" rel="stylesheet" type="text/css" />
+    <script src="asset/js/index.js" defer></script>
+    <title>BlackJack</title>
+</head>
+
+<body>
+    <table>
+        <tr id="header"><td></td><td><header>BlackJack</header></td></tr>
+        <tr>
+            
+            <td id="part__Gauche">
+                <div class="partie_Num">
+                    <div class=" Mise__Text">Partie</div>
+                    <div id="valPartieNum" class=" Mise__Text">N°##</div>
+                </div>
+                <div Class="Mise">
+                    <div class="Mise__Bouton Mise__Text"><a>-</a></div>
+                    <div class="Mise__Text">Mise</div> 
+                    <div id="valMise" class="Mise__Text">## $</div>    
+                    <div class="Mise__Bouton Mise__Text"><a>+</a></div> 
+                </div>
+            </td>
+            <td id="Tapis">
+                <SECTION id="ordi">
+                <div id="Tapis_Ordi">Ordinateur</div>
+                <div class="ordi__Tapis">
+                    <div class="carte"><img id="ordi__carte1" src="asset/ressource/FondVert.png" alt=""></div>
+                    <div class="carte"><img id="ordi__carte2" src="asset/ressource/FondVert.png" alt=""></div>
+                    <div class="carte"><img id="ordi__carte3" src="asset/ressource/FondVert.png" alt=""></div>
+                    <div class="carte"><img id="ordi__carte4" src="asset/ressource/FondVert.png" alt=""></div>
+                    <div class="carte"><img id="ordi__carte5" src="asset/ressource/FondVert.png" alt=""></div>
+                </div>      
+                </SECTION>
+                <div id="Tapis_Joueur">Joueur</div>
+                <SECTION id="joueur">
+                    <div class="joueur__Tapis">
+                        <div class="carte"><img id="joueur__carte1" src="asset/ressource/FondVert.png" alt=""></div>
+                        <div class="carte"><img id="joueur__carte2" src="asset/ressource/FondVert.png" alt=""></div>
+                        <div class="carte"><img id="joueur__carte3" src="asset/ressource/FondVert.png" alt=""></div>
+                        <div class="carte"><img id="joueur__carte4" src="asset/ressource/FondVert.png" alt=""></div>
+                        <div class="carte"><img id="joueur__carte5" src="asset/ressource/FondVert.png" alt=""></div>
+                    </div>
+                </SECTION>
+            </td>
+            <td id="part__Droit">
+                <div id="banque">
+                    <div class="Mise__Text">Banque</div> 
+                    <div id="banqueNum" class="Mise__Text">## $</div>    
+                </div>
+                <div id="sabot">
+                    <div class="Mise__Text">SABOT</div> 
+                    <div id="sabotNum" class="Mise__Text">##</div> 
+                    <div class="Mise__Text">Cartes</div>   
+                </div>
+                <img id="sabot__img" src="asset/ressource/vide.png" alt=""></img>
+                <div id="cagnotte">
+                    <div class="Mise__Text">Cagnotte</div> 
+                    <div id="cagnotteNum" class="Mise__Text">## $</div>    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="part__Bas">
+                <div id="commande">
+                    <div class="Part_Bas__Btn" id="carte"><a   class="Bouton"></a>Carte</div>
+                    <div class="Part_Bas__Btn" id="rejouer"><a   class="Bouton"></a>Rejouer</div>
+                    <div class="Part_Bas__Btn" id="stop"><a   class="Bouton"></a>Stop</div>
+                </div>
+               
+            </td>
+            <td></td>
+        </tr>
+        <tr><td></td><td>
+        <div id="commande2">
+            <div class="Part_Bas__Btn" id="jouer"><a   class="Bouton"></a>JOUER</div>
+        </div></td></tr>
+        <tr id="footer"><td></td><td><footer>2021 - Deramaux Vincent - CDA3</footer></td></tr>
+    </table>
+</body>
+
+</html>
